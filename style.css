@@ -6,6 +6,7 @@ body{
 h1{
     color: rgb(107, 0, 0);
     text-align: center;
+    opacity: 0.5;
 }
 
 p{
@@ -22,5 +23,16 @@ ul{
 
 .wyroznione{
     font-style: italic;
-    background-color: rgb(140, 134, 134);
+    background-color: rgba(83, 0, 0, 0.422);
+    transition: all 1.5s;
+}
+
+.wyroznione:hover{
+    opacity: 1;
+    background-color: rgba(0, 75, 94, 0.466);
+}
+
+h1:hover{
+    padding: 30px;
+    font-size: 50px;
 }
