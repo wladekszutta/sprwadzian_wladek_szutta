@@ -14,3 +14,13 @@ p{
     text-indent: 40%;
 }
 
+ul{
+    list-style-type: square;
+    padding: 20px;
+    margin-left: 40%;
+}
+
+.wyroznione{
+    font-style: italic;
+    background-color: rgb(140, 134, 134);
+}
